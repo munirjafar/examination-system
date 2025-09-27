@@ -7,9 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'app\\modules\\sections\\admin\\controller\\SectionController' => $baseDir . '/app/modules/sections/admin/controller/SectionController.php',
-    'app\\modules\\sections\\admin\\model\\Section' => $baseDir . '/app/modules/sections/admin/model/Section.php',
-    'system\\Controller' => $baseDir . '/system/Controller.php',
-    'system\\DatabaseConnection' => $baseDir . '/system/DatabaseConnection.php',
-    'system\\Template' => $baseDir . '/system/Template.php',
 );

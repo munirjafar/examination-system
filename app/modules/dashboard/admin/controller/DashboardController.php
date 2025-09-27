@@ -11,7 +11,7 @@ class DashboardController extends Controller {
     //   header("location: ?module=dashboard&action=login");
     // } else {
       return true;
-    // }
+    // } 
   }
 
   public function  defaultAction(){

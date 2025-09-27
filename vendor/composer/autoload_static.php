@@ -7,22 +7,22 @@ namespace Composer\Autoload;
 class ComposerStaticInita17706c2167750d6d64f63f5c3953094
 {
     public static $prefixLengthsPsr4 = array (
-        's' => 
+        's' =>
         array (
             'system\\' => 7,
         ),
-        'a' => 
+        'a' =>
         array (
             'app\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'system\\' => 
+        'system\\' =>
         array (
             0 => __DIR__ . '/../..' . '/system',
         ),
-        'app\\' => 
+        'app\\' =>
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
@@ -30,11 +30,6 @@ class ComposerStaticInita17706c2167750d6d64f63f5c3953094
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'app\\modules\\sections\\admin\\controller\\SectionController' => __DIR__ . '/../..' . '/app/modules/sections/admin/controller/SectionController.php',
-        'app\\modules\\sections\\admin\\model\\Section' => __DIR__ . '/../..' . '/app/modules/sections/admin/model/Section.php',
-        'system\\Controller' => __DIR__ . '/../..' . '/system/Controller.php',
-        'system\\DatabaseConnection' => __DIR__ . '/../..' . '/system/DatabaseConnection.php',
-        'system\\Template' => __DIR__ . '/../..' . '/system/Template.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
