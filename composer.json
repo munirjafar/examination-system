@@ -1,0 +1,16 @@
+{
+    "name": "viruss/exam-system",
+    "description": "a full school exam system develop by software tech",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "system\\": "system/"
+        }
+    },
+    "authors": [
+        {
+            "name": "munir jafa"
+        }
+    ],
+    "require": {}
+}
