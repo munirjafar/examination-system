@@ -35,7 +35,7 @@ if ($module == 'dashboard') {
 if ($module == 'sections') {
    require_once MODULES_PATH . 'sections/admin/controller/SectionController.php';
    $controller = new SectionController();
-     $controller->dbc = $dbc;
+   $controller->dbc = $dbc;
    $controller->template = new Template('layout/admin.static');
    $controller->runAction($action);
 }

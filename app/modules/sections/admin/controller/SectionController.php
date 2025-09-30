@@ -21,6 +21,24 @@ class SectionController extends Controller {
     $sections = $section->fetchAllSections();
     $this->template->render("sections/admin/view/index",compact("sections"));
   }
+  public function  CreateSectionAction(){
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+       echo '<pre>';
+       print_r($_POST);
+       echo '</pre>';
+       extract($_POST);
+       $section = new Section($this->dbc);
+       $section->section_name = $sectionName;
+       $section->status = $status;
+       $result = $section->register_new_section();
+       if($result){
+         echo'save';
+       }else {
+        echo 'error';
+       }
+    }
+    $this->template->render("sections/admin/view/create-section",[]);
+  }
   public function loginAction(){
     include VIEWS_PATH. 'auth/login.php';
   }

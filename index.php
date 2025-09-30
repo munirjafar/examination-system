@@ -1,6 +1,4 @@
-<?php
+<?php  
 
 
- echo phpinfo();
-
- ?>
+header("location: public/");

@@ -1,5 +1,8 @@
 <!-- Top Navigation Bar -->
 <div class="topnavbar">
+    <div class="mobile-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
     <div class="logo">
         <i class="fas fa-graduation-cap"></i>
         <span>EduAdmin</span>
